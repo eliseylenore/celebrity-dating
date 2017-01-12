@@ -5,3 +5,7 @@
 img {
   width: 150px;
 }
+
+.hideMe {
+  display: none;
+}

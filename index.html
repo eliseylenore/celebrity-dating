@@ -13,17 +13,17 @@
     <h1 class="jumbotron">Celebrity Dating Game</h1>
     <div class="row">
       <div class="">
-        <form class="" action="index.html" method="post">
+        <form class="">
           <div class="form-group">
             <label>Prefer men or women</label>
-            <select class="form-control" id="beverage">
+            <select class="form-control" id="gender">
               <option></option>
               <option>Male</option>
               <option>Female</option>
             </select>
-            <button type="submit" class="btn" name="button">Submit</button>
+            <button type="submit" class="btn" id="preferenceButton">Submit</button>
           </div>
-          <div class="form-group" id="maleOptions">
+          <div class="form-group hideMe" id="maleOptions">
             <h4>Pick a hair style</h4>
             <label>
               <input type="radio" name="hair" value="receding">
@@ -38,18 +38,41 @@
                 <input type="radio" name="hair" value="bald">
                 <img src="img/bald.png" alt="a bald man" />
               </label>
+              <button type="submit" class="btn" id="hairButton">Submit</button>
+
             </label>
           </div>
 
-          <div class="">
-
+          <div class="form-group hideMe" id="femaleOptions">
+            <label>Pick a butt size</label>
+            <select class="form-control" id="beverage">
+              <option></option>
+              <option>small</option>
+              <option>medium</option>
+              <option>large</option>
+            </select>
+            <button type="submit" class="btn" id="buttButton">Submit</button>
           </div>
 
         </form>
       </div>
 
-      <div class="col-md-6">
+      <div class="hideMe" id="nicki">
+        <h2>Your celebrity date is: </h2>
+        <h1>Nicki Minaj</h1>
+        <img src="img/nicki.jpg" alt="Nicki Minaj" />
+      </div>
 
+      <div class="hideMe" id="sophia">
+        <h2>Your celebrity date is: </h2>
+        <h1>Sophia Vergera</h1>
+        <img src="img/sophia.jpg" alt="Nicki Minaj" />
+      </div>
+
+      <div class="hideMe" id="zooey">
+        <h2>Your celebrity date is: </h2>
+        <h1>Zooey Deschanel</h1>
+        <img src="img/zoey.jpeg" alt="Nicki Minaj" />
       </div>
 
     </div>
